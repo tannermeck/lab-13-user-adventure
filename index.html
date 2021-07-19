@@ -8,26 +8,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>My App</title>
+    <title>Adventure Quest</title>
 </head>
 
 <body>
     <header>
-        <h1>My App</h1>
+        <h1>ADVENTURE QUEST</h1>
         <img src="assets/big-logo.png" />
     </header>
     
     <main>
-
-        Make a Web App!
-        
+        <h1>Start Your Adventure Here!</h1>    
+        <p>Your Name:</p>
+        <form id="user-form">
+            <label for="name">
+                <input type="text" name="name">
+            </label>
+            <label for="race">
+                <input type="radio" name="race" id="knight" value="knight">Knight
+            </label>
+                <input type="radio" name="race" id="peasant" value="peasant">Peasant
+            <label for="race">
+                <input type="radio" name="race" id="queen" value="queen">Queen
+            </label>
+            <label for="race">
+                <input type="radio" name="race" id="king" value="king">King
+            </label>
+            <button type="submit">Start Your Adventure</button>
+        </form>    
     </main>
 
     <footer>
         &copy; 2021 Alchemy Code Lab
     </footer>
 
-    <script type="module" src="./app.js"></script>
+    <script type="module" src="./home/home.js"></script>
 </body>
 
 </html>
