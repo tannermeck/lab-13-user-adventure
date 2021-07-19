@@ -6,3 +6,7 @@ export function getUser(){
 export function setUser(object){
     localStorage.setItem('USER', JSON.stringify(object));
 }
+
+export function findById(array, item.id){
+    
+}
