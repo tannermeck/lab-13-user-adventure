@@ -34,7 +34,7 @@ choiceForm.addEventListener('submit', (e)=> {
     const selected = findById(quest.choices, answer);
     user.hp += selected.hp;
     user.gold += selected.gold;
-    user.completed[quest.title] = true;
+    user.completed[quest.id] = true;
     setUser(user);
     
     const question = document.getElementById('quest-question');
