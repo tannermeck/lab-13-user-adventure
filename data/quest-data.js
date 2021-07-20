@@ -8,7 +8,7 @@ const army = {
     image: 'army.jpeg',
     description: `
         You sneak into a tunnel in attempt to kill Lord Farquaad, but find yourself surrounded by
-        knights in the commands.
+        knights in the commands. What action shall you commend?
     `,
     choices: [{
         id: 'surrender',
@@ -25,9 +25,9 @@ const army = {
         result: `
             You are able to defeat the most fierce soldier in the Farquaad army and Lord Farquaad 
             surrenders to you 50 gold coins as settlement. However, you have been badly hurt with 
-            30 hp damage.
+            20 hp damage.
         `,
-        hp: -30,
+        hp: -20,
         gold: 50
     }, {
         id: 'escape',
