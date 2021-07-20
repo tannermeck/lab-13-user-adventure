@@ -1,5 +1,7 @@
 img {
-    height: 400px;
+    height: 200px;
+    width: 500px;
+    margin: auto;
 }
 body {
     background-color: tan;
@@ -12,6 +14,7 @@ div {
 #quest-title {
     margin:auto;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 span {
     padding-right: 10px;
@@ -21,4 +24,19 @@ span {
 }
 #results-span {
     padding: 20px;
+}
+#quest-question {
+    border: 2px solid black;
+    padding: 30px;
+    background-color: brown;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 20px;
+}
+header {
+    background-color: #A2D7D2;
+    height: 110px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

@@ -8,7 +8,7 @@ const army = {
     image: 'army.jpeg',
     description: `
         You sneak into a tunnel in attempt to kill Lord Farquaad, but find yourself surrounded by
-        knights in the commands.
+        knights in the commands. What action shall you commend?
     `,
     choices: [{
         id: 'surrender',
