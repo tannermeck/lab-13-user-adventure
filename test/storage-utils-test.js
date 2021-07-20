@@ -31,6 +31,6 @@ test('should return an item when an id is matched to the items array using findB
         in a local inn, you go outside and see the dragon about
         to lay seige! What do you do?`
     }];
-    const item = findById(array, array.monsters);
+    const item = findById(array, 'monsters');
     expect.equal(array[0], item);
 });
