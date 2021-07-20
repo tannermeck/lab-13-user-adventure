@@ -89,48 +89,51 @@ const princess = {
     }]
 };
 
-const treasure = {
-    id: 'treasure',
-    title: 'A Golden Treasure',
+const steal = {
+    id: 'steal',
+    title: 'Choose what you steal',
     map: {
         top: '31%',
         left: '5%'
     },
     prerequisites: ['dragon', 'monsters'],
-    image: 'treasure-chests.png',
+    image: 'steal.jpeg',
     audio: 'treasure-chests.wav',
     action: 'chest-opening.wav',
     description: `
-        As you enter the quest chamber you notice three chests before you.
-        Just as you start to imagine the wealth, you see a giant serpent
-        emerge from the back of the chamber. You'll need to make a run for it,
-        but you have time to open one chest before you take off. Which one 
-        do you choose?
+        You find yourself at a party in the King's Castle after receiving an invitation.
+        On your way to the bathroom, you notice a room full of gold. You know that you are
+        behind on your house payments and could use the extra money for food and clothes. 
+        What is your next move?
     `,
     choices: [{
-        id: 'wooden',
-        description: 'A Wooden Chest',
-        result: 'You grab 40 gold pieces!',
+        id: 'take',
+        description: 'Fill your pockets',
+        result: 'You fit what you can in your pockets and walk out casually, gaining 60 gold coins',
         hp: 0,
-        gold: 40
+        gold: 60
     }, {
-        id: 'golden',
-        description: 'A Golden Chest',
-        result: 'Oh no! The chest is booby trapped with poison and you take 50 hp damage',
-        hp: -50,
+        id: 'leave',
+        description: 'Walk away',
+        result: `You keep walking to the bathroom and go back to enjoy the party. Unfortunately, 
+        you do not gain any gold.
+        `,
+        hp: 0,
         gold: 0
     }, {
-        id: 'jeweled',
-        description: 'A Jeweled Chest',
-        result: 'A warm light engulfs you and you gain 35 hp',
+        id: 'rich',
+        description: 'Fill a garbage bag',
+        result: `You are able to fill a garbage bag full of gold and act like you are taking out the trash
+                from the party. You go home and find yourself rich, you gained 200 gold coins.
+        `,
         hp: 35,
-        gold: 0
+        gold: 200
     }]
 };
 
 const quests = [
     army, 
-    treasure,
+    steal,
     princess,
 ];
 
