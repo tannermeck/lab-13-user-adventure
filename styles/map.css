@@ -1,5 +1,5 @@
 body {
-    background-color: tan;
+    background-image: url('../assets/map.jpeg')
 }
 #quest-option {
     display: flex;
@@ -10,4 +10,14 @@ body {
 }
 a {
     padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: aqua;
+}
+h1 {
+    padding: 20px 0px 0px 40px;
+}
+a:hover {
+    cursor: pointer;
+    color: blue;
 }
