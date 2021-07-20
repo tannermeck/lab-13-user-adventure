@@ -9,10 +9,11 @@ body {
     margin: 20px;
 }
 a {
-    padding: 20px;
+    padding: 50px;
     text-decoration: none;
     font-size: 20px;
-    color: aqua;
+    color: brown;
+    font-weight: bolder;
 }
 h1 {
     padding: 20px 0px 0px 40px;
@@ -20,4 +21,26 @@ h1 {
 a:hover {
     cursor: pointer;
     color: blue;
+}
+header {
+    background-color: #A2D7D2;
+    height: 110px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#user-icon {
+    height: 30px;
+    padding-right: 10px;
+}
+.id-section {
+    border: 2px solid black;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+span {
+    padding: 5px;
 }
