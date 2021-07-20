@@ -16,4 +16,9 @@ div {
 span {
     padding-right: 10px;
 }
-
+.hidden {
+    display:none;
+}
+#results-span {
+    padding: 20px;
+}
