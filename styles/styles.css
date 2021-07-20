@@ -38,6 +38,12 @@ footer {
     display: flex;
     flex-direction: row;
 }
+#submit {
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px 0px;
+    cursor: pointer;
+}
 label {
     border: 1px solid black;
     margin: 5px;
@@ -46,17 +52,17 @@ label {
     font-weight:900;
     box-shadow: 2px 2px 2px 2px gray;
 }
-input:hover {
-    cursor: pointer;
-}
-#submit {
-    border-radius: 5px 5px 5px 5px;
-    margin-left: 10px;
-    box-shadow: 5px 5px 5px 0px;
+label:hover {
     cursor: pointer;
 }
 p {
     font-weight: bolder;
     margin: 20px 20px 20px 0px;
     font-size: 25px;
+}
+input[type="radio"] {
+    display: none;
+}
+#user-form input[type="radio"]:checked + label {
+    border: 5px solid white;
 }

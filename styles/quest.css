@@ -1,6 +1,19 @@
 img {
-    height: 300px;
+    height: 400px;
 }
 body {
     background-color: tan;
 }
+div {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#quest-title {
+    margin:auto;
+    margin-top: 30px;
+}
+span {
+    padding-right: 10px;
+}
+
