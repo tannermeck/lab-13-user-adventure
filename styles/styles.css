@@ -26,7 +26,7 @@ header img {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -65,4 +65,8 @@ input[type="radio"] {
 }
 #user-form input[type="radio"]:checked + label {
     border: 5px solid white;
+}
+img {
+    height: 40px;
+    margin: 5px;
 }
