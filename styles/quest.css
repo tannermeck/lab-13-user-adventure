@@ -2,10 +2,12 @@ img {
     height: 200px;
     width: 500px;
     margin: auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px 3px black;
 }
 body {
     background-color: tan;
-    margin: 0px;
+    margin: 0
 }
 div {
     display:flex;
@@ -16,9 +18,16 @@ div {
     margin:auto;
     margin-top: 30px;
     margin-bottom: 30px;
+    border: 5px solid black;
+    padding: 10px;
+    background-color:brown;
+    color: white;
 }
 span {
     padding-right: 10px;
+    margin:auto;
+    font-size: 20px;
+    font-weight: bolder;
 }
 .hidden {
     display:none;
@@ -32,6 +41,7 @@ span {
     background-color: brown;
     border-radius: 5px 5px 5px 5px;
     font-size: 20px;
+    margin: 20px;
 }
 header {
     background-color: #A2D7D2;
@@ -40,4 +50,21 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: center;
+}
+button {
+    box-shadow: 3px 3px 3px 0px black;
+    margin-right: 5px;
+}
+a {
+    margin: auto;
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
 }
