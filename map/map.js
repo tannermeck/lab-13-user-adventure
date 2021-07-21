@@ -3,7 +3,6 @@ import quests from '../data/quest-data.js';
 import { getUser } from '../data/storage-utils.js';
 
 const user = getUser();
-console.log(user);
 const userName = document.getElementById('user-name');
 const userIcon = document.getElementById('user-icon');
 const userGold = document.getElementById('user-gold');
