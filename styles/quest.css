@@ -5,6 +5,7 @@ img {
 }
 body {
     background-color: tan;
+    margin: 0px;
 }
 div {
     display:flex;
